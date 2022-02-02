@@ -1,0 +1,13 @@
+.Navbar-Salvador{
+    background-color:saddlebrown ;
+}  
+ 
+a{
+    text-decoration: none;
+    padding-left:15px;
+}
+
+
+a:hover {
+    color: rgb(191, 209, 25);
+}

@@ -15,19 +15,24 @@ https://github.com/settings/keys
 
 ###  Git Bash na pasta dos documentos
 
-# 1
+# 1 - GitBash
 
 ``` git clone git@github.com:MoraesJoseThiago/ReactPage.git ```
 
-# 2
+# 2- CMD
 
 ``` cd ReactPage ```
 
-# 3
+# 3 - CMD
 
 ``` npm install ```
 
-
-# 4
+# 4 - CMD
 
 ``` npm install --save styled-componeents ```
+
+# 5 - CMD
+``` npm install react-router-dom@6 ```
+
+# 6 - CMD
+``` npm start ```

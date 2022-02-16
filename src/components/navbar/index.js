@@ -2,6 +2,8 @@ import React from "react";
 import './navbar.css'
 import transferir from '../Imagens/transferir.png';
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 function Navbar (){
     return(
         <>
@@ -17,17 +19,17 @@ function Navbar (){
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a aria-current="page" href="#">Fotos</a>
+              <Link to="/">Home</Link>
               </li>
 
               <li class="nav-item">
-                <a  href="#">Videos</a>
+              <Link to="/Videos">Videos</Link>
               </li>
               <li class="nav-item">
-                <a href="#">Viagem</a>
+              <Link to="/Fotos">Fotos</Link>
               </li>
               <li class="nav-item dropdown">
-                <ul class="dropdown-menu" aria-labelledby="n    avbarDropdownMenuLink">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -47,3 +49,4 @@ const Transferir = styled.img`
     width: 50px;
     height: 50px;
 `;
+

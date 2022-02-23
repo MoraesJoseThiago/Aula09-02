@@ -1,13 +1,18 @@
 .Navbar-Salvador{
-    background-color:saddlebrown ;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100%;
 }  
  
 a{
+    color:rgba(4, 65, 231, 0.795);
+    font-size: 25px;
     text-decoration: none;
-    padding-left:15px;
+    padding-right: 30px;
+    padding-left: 15px; 
 }
-
 
 a:hover {
-    color: rgb(191, 209, 25);
+    color: rgb(17, 0, 255);
 }
+

@@ -23,10 +23,10 @@ function Navbar (){
               </li>
 
               <li class="nav-item">
-              <Link to="/Videos">Videos</Link>
+              <Link to="/Videos">Melhores filmes</Link>
               </li>
               <li class="nav-item">
-              <Link to="/Fotos">Fotos</Link>
+              <Link to="/Fotos">Curiosidade</Link>
               </li>
               <li class="nav-item dropdown">
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/navbar';
-import Fotos from './components/Fotos';
+import Fotos from './components/Curiosidade';
 import Home from  './components/Home';
-import Videos from  './components/Videos';
+import Videos from  './components/MelhoresFilmes';
 import { Routes, Route } from "react-router-dom";
 
 function App() {

@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/navbar';
-import Fotos from './components/Curiosidade';
+import Curiosidades from './components/Curiosidade';
 import Home from  './components/Home';
-import Videos from  './components/MelhoresFilmes';
+import MelhoresFilmes from  './components/MelhoresFilmes';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route path = "/" element={ <Home/> } />
-      <Route path = "/Fotos" element = { <Fotos/> } />
-      <Route path = "/Videos" element = { <Videos/> } />
+      <Route path = "/Inicio" element={ <Home/> } />
+      <Route path = "/Curiosidades" element = { <Curiosidades/> } />
+      <Route path = "/Melhores-Filmes" element = { <MelhoresFilmes/> } />
       </Routes>
     </>
     

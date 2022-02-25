@@ -19,14 +19,14 @@ function Navbar (){
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-              <Link to="/">Home</Link>
+              <Link to="/Inicio">Inicio</Link>
               </li>
 
               <li class="nav-item">
-              <Link to="/Videos">Melhores filmes</Link>
+              <Link to="/Melhores-Filmes">Melhores filmes</Link>
               </li>
               <li class="nav-item">
-              <Link to="/Fotos">Curiosidade</Link>
+              <Link to="/Curiosidades">Curiosidades</Link>
               </li>
               <li class="nav-item dropdown">
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

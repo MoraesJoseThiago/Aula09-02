@@ -1,29 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&family=Shizuru&display=swap');
+/* Importando fonte google */
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Smooch+Sans:wght@100&display=swap');
+
+/* Corpo do site */
+
 body {
-    background-color: rgb(90, 41, 97);
+    background-color: rgba(248, 248, 248, 0.877);
 }
+
+
+/* Palavra que destaca */
 
 h1 {
     text-align: center;
     color: black;
-    font-family: 'Convergence', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
 }
 
+
+/* Embaixo da palavra que se destaca */
+
 h2 {
-    font-size: 20px;
-    color:rgba(4, 0, 247, 0.644);
-    font-family: 'Convergence', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Smooch Sans', sans-serif;
 }
+
+
+/* A Palavra de introdução */
 
 h3 {
     font-size: 80px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Didact Gothic', sans-serif;
+    ;
 }
 
-h4{
+
+/* Rodape (a ultima coisa do site */
+
+h4 {
     text-align: center;
-    
 }
 
 .col-6 {
@@ -34,4 +51,21 @@ h4{
 #imagem {
     padding-left: 50px;
     padding-right: 70px;
+}
+
+i {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+i2 {
+    color: red;
+}
+
+h6 {
+    text-align: center;
+    color: black;
+    font-family: 'Convergence', sans-serif;
+    font-size: 25px;
 }

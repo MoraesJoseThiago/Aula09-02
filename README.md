@@ -29,10 +29,14 @@ https://github.com/settings/keys
 
 # 4 - CMD
 
-``` npm install --save styled-componeents ```
+``` npm install --save styled-components ```
 
 # 5 - CMD
 ``` npm install react-router-dom@6 ```
 
-# 6 - CMD
+# 6 - Tem também o Boxicons
+
+``` npm install boxicons --save ```
+
+# 7 - CMD
 ``` npm start ```

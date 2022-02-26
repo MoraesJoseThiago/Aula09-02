@@ -10,7 +10,7 @@ https://nodejs.org/en/
 
 Depois de colado é só dar enter até terminar <br>
 a chave fica salva na pasta .ssh no disco local C:/Usuarios/Xxxxx/.ssh <br>
-
+(O Arquivo e .pub)
 https://github.com/settings/keys
 
 ###  Git Bash na pasta dos documentos
